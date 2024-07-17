@@ -1,18 +1,3 @@
 #!/bin/bash
-echo"IP"
-curl ifconfig.me
-
-echo "whoami"
-whoami
-
-echo "pwd"
-pwd
-
-cd /home/ubuntu/
-
-echo "ls"
-ls
-
-
 # sudo su ubuntu
 sudo mv /home/ubuntu/index.html /var/www/html/

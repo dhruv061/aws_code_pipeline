@@ -1,4 +1,12 @@
 #!/bin/bash
+echo "whoami"
 whoami
+
+echo "pwd"
+pwd
+
+echo "ls"
+ls
+
 # sudo su ubuntu
-sudo mv /home/ubuntu/index.html /var/www/html/index.html
+sudo mv /home/ubuntu/index.html /var/www/html/

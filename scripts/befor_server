@@ -1,0 +1,3 @@
+#!/bin/bash
+cd
+sudo mv /home/ubuntu/index.html /var/www/html/

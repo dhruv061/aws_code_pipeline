@@ -1,7 +1,2 @@
 #!/bin/bash
-pwd
-cd
-pwd
-ls
-locate index.html
-sudo mv index.html /var/www/html/
+sudo mv /home/ubuntu/index.html /var/www/html/

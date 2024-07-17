@@ -1,4 +1,4 @@
 #!/bin/bash
 whoami
 # sudo su ubuntu
-sudo mv /home/ubuntu/index.html /var/www/html/
+sudo mv /home/ubuntu/index.html /var/www/html/index.html

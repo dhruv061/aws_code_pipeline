@@ -1,6 +1,0 @@
-#!/bin/bash
-
-echo "all file in /home/ubuntu/"
-ls -l /home/ubuntu/ 
-
-sudo mv /home/ubuntu/index.html /var/www/html/

@@ -1,0 +1,16 @@
+version: 0.2
+phases:
+  pre_build:
+    commands:
+      - echo "Starting build phase"
+  build:
+    commands:
+      - echo "Renaming appspec file for in-place deployment"
+      - mv appspec-socket.yml appspec.yml
+  post_build:
+    commands:
+      - echo "Build completed"
+artifacts:
+  files:
+    - '**/*'
+  base-directory: '.'
